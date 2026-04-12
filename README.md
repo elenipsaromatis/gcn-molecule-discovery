@@ -18,9 +18,8 @@ Proof of concept corresponding to the Preliminaries section of the proposal. Use
 
 **Covers:**
 - ChEMBL data retrieval and preprocessing (IC50 binding assays, pChEMBL threshold optimisation)
-- ECFP4 Morgan fingerprint generation and Random Forest classifier 
-- PCA and UMAP chemical space visualisation with known reference compounds (dexamethasone, prednisolone, Compound A, ZK 216348, mapracorat)
-- Scaffold-based analogue generation from Compound A with Lipinski and SA score filtering
+- PCA and UMAP chemical space visualisation with known reference compounds (dexamethasone, prednisolone, ZK 216348, mapracorat)
+- Scaffold-based analogue generation from ZK 216348 with Lipinski and SA score filtering
 
 ### `era_segrim_phd_poc.ipynb`
 Full proof of concept pipeline demonstrating the methodology described in Aims 1-4 of the proposal. Uses estrogen receptor alpha (ERα, CHEMBL206) as a data-rich substitute for GR, chosen for its well-populated paired agonism/antagonism dataset.
@@ -33,7 +32,6 @@ Full proof of concept pipeline demonstrating the methodology described in Aims 1
 - RDKit atom-by-atom generative design with valence validity enforcement at each step
 - Pareto front candidate selection trading ERα activity against off-target risk, with high-uncertainty exclusion 
 - ADMET filters: Lipinski Ro5, SA score, TPSA 
-- AutoDock Vina docking against ERα (PDB: 1GWR) with estradiol validation
 
 
 ## References
