@@ -6,9 +6,11 @@ This repository contains the notebooks accompanying my research proposal for *Ar
 ## Installation
 Clone the repository and install dependencies:
 
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
+\```
+git clone https://github.com/elenipsaromatis/gcn-molecule-discovery.git
+cd gcn-molecule-discovery
 pip install -r requirements.txt
+\```
 
 
 ## Repository Contents
